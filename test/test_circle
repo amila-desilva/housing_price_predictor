@@ -1,0 +1,7 @@
+from circle import Circle
+
+my_circle = Circle()
+
+def test_diameter():
+    assert my_circle.diameter(4) == 8  # a circle with radius 4 has diameter 8
+
