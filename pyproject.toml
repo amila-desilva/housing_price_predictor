@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "housing-price-predictor"
+version = "0.1.0"
+description = ""
+authors = ["cmendzx <chrisdm115@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.3.2"
+sphinx = "^8.0.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.5.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
