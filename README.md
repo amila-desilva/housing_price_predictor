@@ -6,3 +6,4 @@ The `Circle` class is a toy class. It serves only as a placeholder for Python co
 
 ### Circle Class Methods
 `Circle.diameter(radius)` - The `diameter` method of the circle class expects one argument, the `radius` of the circle, and returns the diameter.
+ 
