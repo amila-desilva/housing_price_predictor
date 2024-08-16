@@ -68,5 +68,5 @@ class House():
         """
         if self.id == house_id:
             print(f"House with ID {house_id} marked for deletion.")
-            return True  # Return True to indicate this house should be deleted
-        return False  # Return False if the house does not match the ID
+            return True  # True to indicate this house should be deleted
+        return False  # False if the house does not match the ID
