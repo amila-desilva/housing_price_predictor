@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "circle"
+version = "0.1.0"
+description = ""
+authors = ["Keenan Cunningham"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^8.3.2"
+sphinx = "^8.0.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.5.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
