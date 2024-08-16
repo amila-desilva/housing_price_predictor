@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "housing-price-predictor"
+version = "0.1.0"
+description = ""
+authors = ["lquincoso <122310652+lquincoso@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pytest = "^8.3.2"
+sphinx = "^8.0.2"
+pandas = "^2.2.2"
+openpyxl = "^3.1.5"
+
+[tool.pytest.ini_options]
+python_files = "test_*.py"
+python_functions = "test_*"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.5.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
