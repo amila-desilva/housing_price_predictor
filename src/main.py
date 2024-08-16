@@ -1,11 +1,20 @@
 from utils.read_from_file import read_from_file
 from utils.write_to_file import write_to_file
 from classes.House import House
+
 import pandas as pd
 from datetime import datetime
 import os
 
 def main():
+    """
+    Main function of the Housing Price Predictor.
+
+    This function loads the dataset, processes the data, and runs predictions.
+
+    Returns:
+        None (for now)
+    """
     # Loading dataset
     script_dir = os.path.dirname(os.path.abspath(__file__))
     file_path = os.path.join(script_dir, '..', 'housing_price_predictor', 'dataset', 'data.xlsx')
